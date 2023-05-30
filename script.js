@@ -59,7 +59,10 @@ function displayResult(weatherInfo) {
 function showData() {
     event.preventDefault();
     let login = document.getElementById('moodleLogin').value;
-    if (login = 'is-12fiot-21-142') {
+    if (login == 'is-12fiot-21-142') {
         document.getElementById('myData').innerHTML = 'Гоголь Софія, 2 курс, ІС-12'
     }
+    else{
+            document.getElementById('myData').innerHTML = 'Error'
+        }
 }
